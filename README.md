@@ -73,7 +73,7 @@ It returns the responses in json format
 
 ```javascript
 {
-  "amount" : string,
+  "amount" : double,
   "error" : string,
 }
 ```
