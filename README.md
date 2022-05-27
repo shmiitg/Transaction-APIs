@@ -1,11 +1,19 @@
+# Getting Started
+- Run `npm install` to install the required dependencis
+- Create a databse named `bank`
+- Inside the banks database, create a table name `users`
+- Create a .env file in the root directory and put a field named `MYSQL_PASSWORD` which will be equal to your mysql password
+- Run `npm start` to start the server on `localhost:5000`
+
 # Schema
 
  MySQL Database
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-| `email` | `string` | **Required**. Email |
-| `password` | `string` | **Required**. Password |
-| `amount` | `double` | **Default**. 0 |
+| `id` | `int` | **Required**. Id (Unique && Autofill) |
+| `email` | `string` | **Required**. Email (Not Null) |
+| `password` | `string` | **Required**. Password (Not Null)|
+| `amount` | `double` | **Not Required**. Amount (Default 0) |
 
 
 # Authorization
