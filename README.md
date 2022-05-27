@@ -57,7 +57,7 @@ PUT /transaction/credit
 ```
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-| `amount` | int | **Required**. Amount |
+| `amount` | double | **Required**. Amount |
 
 #### Debit (Deducts amount from user account)
 ```http
@@ -65,7 +65,7 @@ PUT /transaction/debit
 ```
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-| `amount` | int | **Required**. Amount |
+| `amount` | double | **Required**. Amount |
 
 #### Responses
 
